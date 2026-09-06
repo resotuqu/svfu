@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main() {
-    int R;
+    double R;
     double pi = 3.14159;
     std::cin >> R;
 
