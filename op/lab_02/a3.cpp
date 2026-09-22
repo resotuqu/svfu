@@ -13,15 +13,15 @@ int main()
 
     if (year % 400 == 0)
     {
-        std::cout << "leap year";
+        std::cout << "leap year" << std::endl;
     }
     else if (year % 4 == 0 and year % 100 != 0)
     {
-        std::cout << "leap year";
+        std::cout << "leap year" << std::endl;
     }
     else
     {
-        std::cout << "non-leap year";
+        std::cout << "non-leap year" << std::endl;
     }
     return 0;
 }

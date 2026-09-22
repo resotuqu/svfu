@@ -5,6 +5,12 @@ int main()
     int a, b, c;
     std::cin >> a >> b >> c;
 
+    if (a == 0 || b == 0 || c == 0)
+    {
+        std::cout << "NO" << std::endl;
+        return 0;
+    }
+
     if (a % b == 0 and a % c == 0)
     {
         std::cout << a << std::endl;

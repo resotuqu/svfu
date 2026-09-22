@@ -5,13 +5,13 @@ int main() {
     char c; std::cin >> c;
     std::string out;
 
-    if (c >= 48 and c <= 57) {
+    if (c >= '0' and c <= '9') {
         out = "DIGIT";
     }
-    else if (c >= 65 and c <= 90) {
+    else if (c >= 'A' and c <= 'Z') {
         out = "CAPITAL";
     }
-    else if (c >= 97 and c <= 122) {
+    else if (c >= 'a' and c <= 'z') {
         out = "LOWERCASE";
     }
     else {
